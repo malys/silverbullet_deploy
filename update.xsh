@@ -1,0 +1,1 @@
+curl -sL https://edge.silverbullet.md/silverbullet.js -o silverbullet.js
