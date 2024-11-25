@@ -1,0 +1,1 @@
+silverbullet sync  --wipe-secondary ../silverbullet_backup https://malys-silverbulle-91.deno.dev 
