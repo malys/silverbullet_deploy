@@ -7,6 +7,6 @@ downloadGithub(FILE_NAME,PROJECT_NAME,FILE_PATTERN)
 
 silverbullet sync  --wipe-secondary https://malys-silverbulle-91.deno.dev ../silverbullet_backup
 cd ../silverbullet_backup
-git add -all
+git add --all
 git commit -am "Update Silverbullet backup"
 git push
