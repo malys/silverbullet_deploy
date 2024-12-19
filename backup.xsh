@@ -1,5 +1,6 @@
 source $XONSH_CONFIG_DIR/rc.d/github.xsh
 
+print("Backup Silverbullet")
 FILE_NAME="silverbullet.zip"
 PROJECT_NAME="silverbulletmd/silverbullet"
 FILE_PATTERN="-server-windows-x86_64"

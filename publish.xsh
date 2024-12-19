@@ -1,5 +1,6 @@
 import argparse
 
+print("Publishing Silverbullet")
 
 $RAISE_SUBPROC_ERROR = True  # Raise an error if a subprocess returns a non-zero exit status.
                              # Read more: https://xon.sh/envvars.html#raise-subproc-error
