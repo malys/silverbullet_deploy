@@ -9,9 +9,12 @@ argp = argparse.ArgumentParser(description=f"Get count of lines in HTML by site 
 argp.add_argument('--force', help="Wipeout destination")
 args = argp.parse_args()
 
-parameters=["sync",  "../silverbullet_backup", "https://malys-silverbulle-91.deno.dev" ]
+TARGET= "https://malys-silverbulle-91.deno.dev"
+parameters=["sync",  "../silverbullet_backup", TARGET ]
 if args.force:
     print("Wipingout destination")
     parameters.append("--wipe-secondary")
+
+open-cli.cmd @(TARGET)
 
 silverbullet @(parameters)
